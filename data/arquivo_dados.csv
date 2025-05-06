@@ -1,0 +1,6 @@
+ID_Cliente,Nome,Idade,Cidade,Data_Cadastro,Valor_Gasto
+C001,Ana Silva,28,Sao Paulo,2023-01-15,150.75
+C002,Bruno Costa,35,Rio de Janeiro,2023-02-20,89.90
+C003,Carla Dias,41,Belo Horizonte,2023-03-10,210.00
+C004,Daniel Souza,22,Curitiba,2023-04-05,55.50
+C005,Elisa Rocha,30,Porto Alegre,2023-05-12,320.15

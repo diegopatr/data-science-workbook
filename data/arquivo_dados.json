@@ -1,0 +1,42 @@
+[
+  {
+    "ID_Cliente": "C001",
+    "Nome": "Ana Silva",
+    "Idade": 28,
+    "Cidade": "Sao Paulo",
+    "Data_Cadastro": "2023-01-15",
+    "Valor_Gasto": 150.75
+  },
+  {
+    "ID_Cliente": "C002",
+    "Nome": "Bruno Costa",
+    "Idade": 35,
+    "Cidade": "Rio de Janeiro",
+    "Data_Cadastro": "2023-02-20",
+    "Valor_Gasto": 89.90
+  },
+  {
+    "ID_Cliente": "C003",
+    "Nome": "Carla Dias",
+    "Idade": 41,
+    "Cidade": "Belo Horizonte",
+    "Data_Cadastro": "2023-03-10",
+    "Valor_Gasto": 210.00
+  },
+  {
+    "ID_Cliente": "C004",
+    "Nome": "Daniel Souza",
+    "Idade": 22,
+    "Cidade": "Curitiba",
+    "Data_Cadastro": "2023-04-05",
+    "Valor_Gasto": 55.50
+  },
+  {
+    "ID_Cliente": "C005",
+    "Nome": "Elisa Rocha",
+    "Idade": 30,
+    "Cidade": "Porto Alegre",
+    "Data_Cadastro": "2023-05-12",
+    "Valor_Gasto": 320.15
+  }
+]

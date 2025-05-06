@@ -1,0 +1,5 @@
+ID  NOME       VALOR   S
+001João Silva 1234.50 A
+002Ana Souza  2500.75 I
+003Pedro Luz  750.25  A
+004Maria Jose 3421.00 I

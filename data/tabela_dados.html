@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela de Dados</title>
+    <!-- Um pouco de estilo básico apenas para visualização -->
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centraliza a tabela com margens */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* Bordas cinzas claras */
+            padding: 10px; /* Espaçamento interno */
+            text-align: left; /* Alinhamento à esquerda */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Fundo cinza claro para cabeçalhos */
+            font-weight: bold;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Página de Exemplo para Web Scraping</h1>
+<p>Esta página contém dados fictícios de produtos para demonstração.</p>
+
+<!--
+    Esta é a tabela que o script Python de exemplo vai procurar.
+    Note o atributo id="dados_principais".
+-->
+<table id="dados_principais">
+    <caption>Tabela de Produtos Fictícios</caption>
+    <thead>
+    <!-- Cabeçalho da Tabela (th = table header) -->
+    <tr>
+        <th>ID do Produto</th>
+        <th>Nome</th>
+        <th>Categoria</th>
+        <th>Preço (R$)</th>
+        <th>Em Estoque</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Corpo da Tabela (tr = table row, td = table data) -->
+    <tr>
+        <td>PROD-001</td>
+        <td>Laptop UltraBook V2</td>
+        <td>Eletrônicos</td>
+        <td>5200.50</td>
+        <td>Sim</td>
+    </tr>
+    <tr>
+        <td>PROD-002</td>
+        <td>Teclado Gamer RGB</td>
+        <td>Acessórios de PC</td>
+        <td>450.00</td>
+        <td>Sim</td>
+    </tr>
+    <tr>
+        <td>PROD-003</td>
+        <td>Monitor Curvo 27"</td>
+        <td>Monitores</td>
+        <td>1899.99</td>
+        <td>Não</td>
+    </tr>
+    <tr>
+        <td>PROD-004</td>
+        <td>Mouse Sem Fio Ergonômico</td>
+        <td>Acessórios de PC</td>
+        <td>199.90</td>
+        <td>Sim</td>
+    </tr>
+    <tr>
+        <td>PROD-005</td>
+        <td>Cadeira Gamer Profissional</td>
+        <td>Móveis</td>
+        <td>1350.00</td>
+        <td>Sim</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>Fim da tabela de dados.</p>
+
+</body>
+</html>
